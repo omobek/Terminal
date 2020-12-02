@@ -1,0 +1,116 @@
+.inner{
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+
+}
+.logo img{
+    width: 50px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.header__text{
+    font-size: 23px;
+    border: solid 2px grey;
+    border-radius: 10px;
+    padding: 5px 10px  10px 10px;
+}
+
+/********************************************************** */
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.left{
+
+}
+
+.right{
+
+}
+.input{
+
+}
+
+.numbers{
+    display: grid;
+    grid-template-areas: 'one two three'
+                          'four five six'
+                            'seven eight nine'
+                            'tire null slash';
+    gap: 10px;
+
+
+}
+.number{
+    border: black solid 1px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.one{
+    grid-area: one;
+}
+
+.two{
+    grid-area: two;
+}
+
+.three{
+    grid-area: three;
+}
+
+.four{
+    grid-area: four;
+}
+
+.five{
+    grid-area: five;
+}
+
+
+.six{
+    grid-area: six;
+}
+
+.seven{
+    grid-area: seven;
+}
+
+
+.eight{
+    grid-area: eight;
+}
+
+
+.nine{
+    grid-area: nine;
+}
+
+.tire{
+    grid-area: tire;
+}
+
+
+.null{
+    grid-area: null;
+}
+
+.slash{
+    grid-area: slash;
+}
+
+
+
+
+
+
+/********************************************************** */
+.buttons{
+
+}
