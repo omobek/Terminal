@@ -5,11 +5,14 @@ import {useHistory} from "react-router";
 
 const Features = () => {
     const history = useHistory();
+    /*function handleClick(){
+        history.push("/catalog")
+    }*/
     return (
         <div className='container'>
             <div className={mod.box}>
 
-                <div className={mod.features} onClick={ ()=>{ history.push('')}}>
+                <div className={mod.features} onClick={() => history.push("catalog")} >
                     <div className={mod.image}>
                             <img
                             src="https://i.pinimg.com/originals/1c/6c/0d/1c6c0d91fad08db3c80296f3f2efc884.jpg"

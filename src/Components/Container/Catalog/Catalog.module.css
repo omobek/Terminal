@@ -1,6 +1,6 @@
 .catalog{
     width: 1200px;
-    height: 300px;
+    height: auto;
     margin: 50px auto;
     padding: 0 15px;
     color: black;
@@ -73,7 +73,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 50px;
 
 }
 

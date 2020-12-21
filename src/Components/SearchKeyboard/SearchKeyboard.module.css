@@ -1,0 +1,18 @@
+
+.container{
+    margin-top: 70px;
+}
+
+.input{
+    display: flex;
+   justify-content: center;
+}
+.inp{
+    width: 900px;
+    height: 70px;
+}
+
+.inp::placeholder{
+    font-size: 30px;
+}
+

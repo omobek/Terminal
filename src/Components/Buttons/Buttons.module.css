@@ -2,9 +2,9 @@
 .container{
     width: 550px;
     margin: 0 auto;
-    left: 30%;
-    bottom: 11%;
-    position: fixed;
+   /* left: 30%;
+    bottom: 11%;*/
+
 }
 
 .buttons{
@@ -41,4 +41,11 @@
     color: lightblue;
     font-size: 18px;
     transition: .3s;
+}
+.btn > img{
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+
+
 }
